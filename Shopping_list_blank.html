@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Shopping List Blank</title>
+  <link rel="stylesheet" href="https://bootswatch.com/cosmo/bootstrap.min.css">
+</head>
+<body>
+  <center><h1> Tu Lista de Compras </h1></center>
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-md-offset-3 col-md-6">
+        <form action="" id="agregar">
+          <div class="form-group">
+            <label for="nuevo_articulo">Nuevo artículo</label>
+            <input class="form-control" id="nuevo_articulo" placeholder="Aquí va tu artículo">
+          </div>
+          <div class="btn-group">
+            <button type="submit" class="btn btn-warning">Agregar</button>
+
+
+          </div>
+        </form>
+        <p></p>
+        <p id="counter"></p>
+        <ul id="items_lista"></ul>
+
+        <button type="button" id="remove" class="btn btn-default">Borrar el último artículo</button>
+      </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+      <script src="js/shopping_list_blank.js"></script>
+    </body>
+    </html>
